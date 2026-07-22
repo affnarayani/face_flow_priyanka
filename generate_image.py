@@ -192,6 +192,22 @@ def update_image_status_in_json(topic_text: str):
         json.dump(topics, f, indent=4, ensure_ascii=False)
     print("[OK] Image status successfully updated (image_generated=True) in priyanka_fb_topics.json", flush=True)
 
+def upload_to_catbox(file_path):
+    url = "https://catbox.moe/user/api.php"
+    payload = {"reqtype": "fileupload"}
+    
+    with open(file_path, "rb") as file:
+        files = {"fileToUpload": file}
+        response = requests.post(url, data=payload, files=files)
+        
+    if response.status_code == 200:
+        # Response me seedha URL (https://files.catbox.moe/xxxxx.png) milta hai
+        image_url = response.text.strip()
+        print(f"👉 DIRECT LINK: {image_url}")
+        return image_url
+    else:
+        print(f"Upload failed: {response.status_code}")
+        return None
 
 # =========================
 # MAIN
@@ -410,31 +426,7 @@ def run():
                     # Playwright full page screenshot
                     page.screenshot(path=screenshot_path, full_page=True)
                     print(f"[OK] Error screenshot captured: {screenshot_path}", flush=True)
-                    
-                    # --- ImgBB Upload Logic Starts Here ---
-                    imgbb_key = os.getenv("IMGBBB_API_KEY")
-
-                    if imgbb_key:
-                        print("[OK] Uploading screenshot to ImgBB...", flush=True)
-                        url = "https://api.imgbb.com/1/upload"
-                        payload = {
-                            "key": imgbb_key,
-                            "expiration": 86400
-                        }
-                        with open(screenshot_path, "rb") as file:
-                            # 3. data=payload aur files={"image": file} bhej rahe hain
-                            response = requests.post(url, data=payload, files={"image": file})  
-                        if response.status_code == 200:
-                            res_data = response.json()
-                            direct_url = res_data["data"]["display_url"]
-                            print("\n" + "="*50, flush=True)
-                            print(f"👉 DIRECT SCREENSHOT LINK: {direct_url}", flush=True)
-                            print("="*50 + "\n", flush=True)
-                        else:
-                            # Error aaye toh exact ImgBB ka response message bhi print hoga
-                            print(f"[WARNING] ImgBB Upload Failed Status: {response.status_code} | Details: {response.text}", flush=True)
-                    else:
-                        print("[WARNING] IMGBBB_API_KEY environment variable not found.", flush=True)
+                    upload_to_catbox(screenshot_path)
                 except Exception as screenshot_err:
                     print(f"[WARNING] Could not capture or upload screenshot: {screenshot_err}", flush=True)
             sys.exit(1)
