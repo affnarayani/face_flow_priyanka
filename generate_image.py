@@ -420,10 +420,10 @@ def run():
                         payload = {
                             "key": imgbb_key,
                             "expiration": 86400
-                        }   
+                        }
                         with open(screenshot_path, "rb") as file:
                             # 3. data=payload aur files={"image": file} bhej rahe hain
-                            response = requests.post(url, data=payload, files={"image": file})
+                            response = requests.post(url, data=payload, files={"image": file})  
                         if response.status_code == 200:
                             res_data = response.json()
                             direct_url = res_data["data"]["display_url"]
@@ -435,6 +435,8 @@ def run():
                             print(f"[WARNING] ImgBB Upload Failed Status: {response.status_code} | Details: {response.text}", flush=True)
                     else:
                         print("[WARNING] IMGBBB_API_KEY environment variable not found.", flush=True)
+                except Exception as screenshot_err:
+                    print(f"[WARNING] Could not capture or upload screenshot: {screenshot_err}", flush=True)
             sys.exit(1)
 
         # ========================================================
