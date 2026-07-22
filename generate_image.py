@@ -413,13 +413,17 @@ def run():
                     
                     # --- ImgBB Upload Logic Starts Here ---
                     imgbb_key = os.getenv("IMGBBB_API_KEY")
+
                     if imgbb_key:
                         print("[OK] Uploading screenshot to ImgBB...", flush=True)
-                        url = f"https://api.imgbb.com/1/upload?expiration=86400&key={imgbb_key}"
-                        
+                        url = "https://api.imgbb.com/1/upload"
+                        payload = {
+                            "key": imgbb_key,
+                            "expiration": 86400
+                        }   
                         with open(screenshot_path, "rb") as file:
-                            response = requests.post(url, files={"image": file})
-                        
+                            # 3. data=payload aur files={"image": file} bhej rahe hain
+                            response = requests.post(url, data=payload, files={"image": file})
                         if response.status_code == 200:
                             res_data = response.json()
                             direct_url = res_data["data"]["display_url"]
@@ -427,11 +431,10 @@ def run():
                             print(f"👉 DIRECT SCREENSHOT LINK: {direct_url}", flush=True)
                             print("="*50 + "\n", flush=True)
                         else:
-                            print(f"[WARNING] ImgBB Upload Failed Status: {response.status_code}", flush=True)
+                            # Error aaye toh exact ImgBB ka response message bhi print hoga
+                            print(f"[WARNING] ImgBB Upload Failed Status: {response.status_code} | Details: {response.text}", flush=True)
                     else:
                         print("[WARNING] IMGBBB_API_KEY environment variable not found.", flush=True)
-                except Exception as screenshot_err:
-                    print(f"[WARNING] Could not capture or upload screenshot: {screenshot_err}", flush=True)
             sys.exit(1)
 
         # ========================================================
