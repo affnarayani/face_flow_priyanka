@@ -192,21 +192,36 @@ def update_image_status_in_json(topic_text: str):
         json.dump(topics, f, indent=4, ensure_ascii=False)
     print("[OK] Image status successfully updated (image_generated=True) in priyanka_fb_topics.json", flush=True)
 
-def upload_to_fileio(file_path):
+def upload_to_fileio(screenshot_path):
     url = "https://file.io"
     
-    with open(file_path, "rb") as file:
-        response = requests.post(url, files={"file": file})
+    try:
+        print("[OK] Uploading screenshot to file.io...", flush=True)
         
-    if response.status_code == 200:
-        res_data = response.json()
-        direct_url = res_data.get("link")
-        print("\n" + "="*50, flush=True)
-        print(f"👉 DIRECT LINK: {direct_url}", flush=True)
-        print("="*50 + "\n", flush=True)
-        return direct_url
-    else:
-        print(f"[WARNING] Upload Failed Status: {response.status_code} | Details: {response.text}", flush=True)
+        with open(screenshot_path, "rb") as file:
+            response = requests.post(url, files={"file": file})
+        
+        # 1. HTTP Status Code check
+        if response.status_code == 200:
+            try:
+                # 2. Safe JSON parsing (line 1 column 1 error se bachne ke liye)
+                res_data = response.json()
+                direct_url = res_data.get("link")
+                
+                print("\n" + "="*50, flush=True)
+                print(f"👉 DIRECT SCREENSHOT LINK: {direct_url}", flush=True)
+                print("="*50 + "\n", flush=True)
+                return direct_url
+                
+            except ValueError:  # Handles JSONDecodeError
+                print(f"[WARNING] Server returned non-JSON response: {response.text[:200]}", flush=True)
+                return None
+        else:
+            print(f"[WARNING] Upload Failed Status: {response.status_code} | Response: {response.text[:200]}", flush=True)
+            return None
+
+    except Exception as err:
+        print(f"[WARNING] Could not upload screenshot: {err}", flush=True)
         return None
 
 # =========================
