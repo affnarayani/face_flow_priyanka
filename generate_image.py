@@ -192,21 +192,21 @@ def update_image_status_in_json(topic_text: str):
         json.dump(topics, f, indent=4, ensure_ascii=False)
     print("[OK] Image status successfully updated (image_generated=True) in priyanka_fb_topics.json", flush=True)
 
-def upload_to_catbox(file_path):
-    url = "https://catbox.moe/user/api.php"
-    payload = {"reqtype": "fileupload"}
+def upload_to_fileio(file_path):
+    url = "https://file.io"
     
     with open(file_path, "rb") as file:
-        files = {"fileToUpload": file}
-        response = requests.post(url, data=payload, files=files)
+        response = requests.post(url, files={"file": file})
         
     if response.status_code == 200:
-        # Response me seedha URL (https://files.catbox.moe/xxxxx.png) milta hai
-        image_url = response.text.strip()
-        print(f"👉 DIRECT LINK: {image_url}")
-        return image_url
+        res_data = response.json()
+        direct_url = res_data.get("link")
+        print("\n" + "="*50, flush=True)
+        print(f"👉 DIRECT LINK: {direct_url}", flush=True)
+        print("="*50 + "\n", flush=True)
+        return direct_url
     else:
-        print(f"Upload failed: {response.status_code}")
+        print(f"[WARNING] Upload Failed Status: {response.status_code} | Details: {response.text}", flush=True)
         return None
 
 # =========================
@@ -314,7 +314,7 @@ def run():
         else:
             print("[WARNING] Profile button not detected directly, proceeding with caution...", flush=True)
 
-        create_image_btn = page.get_by_role('button', name='Create an imagex', exact=True)
+        create_image_btn = page.get_by_role('button', name='Create an image', exact=True)
 
         if create_image_btn.is_visible():
             create_image_btn.click()
@@ -323,7 +323,7 @@ def run():
 
         # Locate chat box and type prompt
         print("[STEP] Locating chat textbox...", flush=True)
-        chat_box = page.get_by_role('textbox', name='Chat with ChatGPT')
+        chat_box = page.get_by_role('textboxs', name='Chat with ChatGPT')
 
         if chat_box.count() == 0:
             print("[INFO] Fallback 1: Searching for 'Describe or edit an image' paragraph inside textbox context...", flush=True)
@@ -426,7 +426,7 @@ def run():
                     # Playwright full page screenshot
                     page.screenshot(path=screenshot_path, full_page=True)
                     print(f"[OK] Error screenshot captured: {screenshot_path}", flush=True)
-                    upload_to_catbox(screenshot_path)
+                    upload_to_fileio(screenshot_path)
                 except Exception as screenshot_err:
                     print(f"[WARNING] Could not capture or upload screenshot: {screenshot_err}", flush=True)
             sys.exit(1)
