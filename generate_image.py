@@ -314,7 +314,7 @@ def run():
         else:
             print("[WARNING] Profile button not detected directly, proceeding with caution...", flush=True)
 
-        create_image_btn = page.get_by_role('button', name='Create an image', exact=True)
+        create_image_btn = page.get_by_role('button', name='Create an imagex', exact=True)
 
         if create_image_btn.is_visible():
             create_image_btn.click()
