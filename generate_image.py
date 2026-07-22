@@ -192,7 +192,7 @@ def update_image_status_in_json(topic_text: str):
         json.dump(topics, f, indent=4, ensure_ascii=False)
     print("[OK] Image status successfully updated (image_generated=True) in priyanka_fb_topics.json", flush=True)
 
-def upload_to_fileio(screenshot_path):
+def upload_to_tmpfiles(screenshot_path):
     url = "https://tmpfiles.org/api/v1/upload"
     
     with open(screenshot_path, "rb") as file:
@@ -320,7 +320,7 @@ def run():
             create_image_btn.click()
             print("[STEP] Create an image button clicked!...", flush=True)
             custom_random_wait(6, 12)
-        page.get_by_role('button', name='How are you Darling!').click()
+
         # Locate chat box and type prompt
         print("[STEP] Locating chat textbox...", flush=True)
         chat_box = page.get_by_role('textbox', name='Chat with ChatGPT')
@@ -426,7 +426,7 @@ def run():
                     # Playwright full page screenshot
                     page.screenshot(path=screenshot_path, full_page=True)
                     print(f"[OK] Error screenshot captured: {screenshot_path}", flush=True)
-                    upload_to_fileio(screenshot_path)
+                    upload_to_tmpfiles(screenshot_path)
                 except Exception as screenshot_err:
                     print(f"[WARNING] Could not capture or upload screenshot: {screenshot_err}", flush=True)
             sys.exit(1)
@@ -588,7 +588,7 @@ def run():
                         page.screenshot(path=screenshot_path, full_page=True)
                         print(f"[OK] Error screenshot captured: {screenshot_path}", flush=True)
                         
-                        upload_to_fileio(screenshot_path)
+                        upload_to_tmpfiles(screenshot_path)
                     except Exception as screenshot_err:
                         print(f"[WARNING] Could not capture or upload screenshot: {screenshot_err}", flush=True)
                 sys.exit(1)
@@ -610,7 +610,7 @@ def run():
                 page.screenshot(path=screenshot_path, full_page=True)
                 print(f"[OK] Error screenshot captured: {screenshot_path}", flush=True)
                 
-                upload_to_fileio(screenshot_path)
+                upload_to_tmpfiles(screenshot_path)
             except Exception as screenshot_err:
                 print(f"[WARNING] Could not capture or upload screenshot: {screenshot_err}", flush=True)
         sys.exit(1)
