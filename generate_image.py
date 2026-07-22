@@ -320,7 +320,7 @@ def run():
             create_image_btn.click()
             print("[STEP] Create an image button clicked!...", flush=True)
             custom_random_wait(6, 12)
-        page.get_by_role('button', name='How are you Darling!')
+        page.get_by_role('button', name='How are you Darling!').click()
         # Locate chat box and type prompt
         print("[STEP] Locating chat textbox...", flush=True)
         chat_box = page.get_by_role('textbox', name='Chat with ChatGPT')
