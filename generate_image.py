@@ -298,8 +298,10 @@ def run():
         else:
             print("[WARNING] Profile button not detected directly, proceeding with caution...", flush=True)
 
-        if page.get_by_role('button', name='Create an image').is_visible():
-            page.get_by_role('button', name='Create an image').click()
+        create_image_btn = page.get_by_role('button', name='Create an image', exact=True)
+
+        if create_image_btn.is_visible():
+            create_image_btn.click()
             print("[STEP] Create an image button clicked!...", flush=True)
             custom_random_wait(6, 12)
 
