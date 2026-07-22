@@ -320,10 +320,10 @@ def run():
             create_image_btn.click()
             print("[STEP] Create an image button clicked!...", flush=True)
             custom_random_wait(6, 12)
-
+        page.get_by_role('button', name='How are you Darling!')
         # Locate chat box and type prompt
         print("[STEP] Locating chat textbox...", flush=True)
-        chat_box = page.get_by_role('textboxs', name='Chat with ChatGPT')
+        chat_box = page.get_by_role('textbox', name='Chat with ChatGPT')
 
         if chat_box.count() == 0:
             print("[INFO] Fallback 1: Searching for 'Describe or edit an image' paragraph inside textbox context...", flush=True)
