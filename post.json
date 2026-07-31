@@ -1,14 +1,14 @@
 {
-    "title": "NDPS and money laundering overlap - when both laws apply together",
-    "p1": "A drug case does not always end with the seizure of illegal substances.\n\nSometimes, the bigger legal battle begins after the money trail is discovered.",
-    "p2": "Many people think a person involved in narcotics offences can only face action under the NDPS Act. But when money earned from drug-related activities is hidden, transferred, or converted into legitimate-looking assets, money laundering laws can also come into play.",
-    "p3": "The NDPS Act deals with offences involving prohibited drugs and substances. The Prevention of Money Laundering Act (PMLA) focuses on the proceeds of crime — the money or property generated from illegal activities.\n\nA surprising point: authorities do not need to prove that every rupee in someone's possession came from drugs. The focus is on tracing whether assets are connected to criminal proceeds.\n\nThe practical takeaway is that one act can create multiple legal consequences when the offence, the money trail, and the assets are connected.",
-    "conclusion": "Do you think stricter action against illegal drug money should focus more on punishment or on tracing and recovering the financial gains?",
+    "title": "Algorithmic bias in lending - the consumer protection angle",
+    "p1": "A computer can approve a loan in seconds. But what happens when the computer learns the wrong lessons? Many people assume algorithms are automatically fair because they remove human judgment.",
+    "p2": "The surprising truth: algorithms can repeat old biases if they are trained on biased data. A lending system may not consider someone's identity directly, yet factors like location, spending patterns, or past decisions can sometimes create unfair outcomes for certain groups.",
+    "p3": "Consumer protection is about making sure technology does not become a hidden barrier. Lenders using automated systems still need transparency, accuracy, and ways for consumers to challenge mistakes. Faster decisions should not mean fewer rights. The smartest systems are not just efficient; they are accountable.",
+    "conclusion": "Should companies be required to explain how AI makes lending decisions, or would that slow down innovation too much?",
     "keywords": [
-        "NDPSAct",
-        "MoneyLaundering",
-        "PMLA",
-        "FinancialCrime",
-        "LegalAwareness"
+        "AlgorithmicBias",
+        "ConsumerProtection",
+        "FinTech",
+        "ResponsibleAI",
+        "LendingFairness"
     ]
 }
