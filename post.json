@@ -1,14 +1,14 @@
 {
-    "title": "Algorithmic bias in lending - the consumer protection angle",
-    "p1": "A computer can approve a loan in seconds. But what happens when the computer learns the wrong lessons? Many people assume algorithms are automatically fair because they remove human judgment.",
-    "p2": "The surprising truth: algorithms can repeat old biases if they are trained on biased data. A lending system may not consider someone's identity directly, yet factors like location, spending patterns, or past decisions can sometimes create unfair outcomes for certain groups.",
-    "p3": "Consumer protection is about making sure technology does not become a hidden barrier. Lenders using automated systems still need transparency, accuracy, and ways for consumers to challenge mistakes. Faster decisions should not mean fewer rights. The smartest systems are not just efficient; they are accountable.",
-    "conclusion": "Should companies be required to explain how AI makes lending decisions, or would that slow down innovation too much?",
+    "title": "Where insider trading prosecution and criminal court jurisdiction overlap",
+    "p1": "A stock trade can look like a financial violation. But what happens when it becomes a crime?\n\nMany people assume insider trading is handled only by market regulators. The reality is more complex.",
+    "p2": "A surprising fact: insider trading cases can cross from regulatory action into the criminal justice system. If authorities believe someone intentionally used confidential, price-sensitive information for personal gain, criminal prosecution may become possible.",
+    "p3": "The overlap happens because the same conduct can raise different legal questions. Regulators may examine market violations, while criminal courts focus on whether a person committed an offence requiring punishment. The key difference is the level of proof and the consequences involved.\n\nA person accused of insider trading is not automatically guilty. Courts must examine evidence, intent, and whether the legal requirements for a crime are actually met.\n\nThe practical takeaway: financial misconduct is not always just about penalties or fines. In serious cases, it can enter the criminal justice system.",
+    "conclusion": "Do you think insider trading should remain a regulatory issue, or should serious cases always involve criminal prosecution?",
     "keywords": [
-        "AlgorithmicBias",
-        "ConsumerProtection",
-        "FinTech",
-        "ResponsibleAI",
-        "LendingFairness"
+        "InsiderTrading",
+        "SecuritiesLaw",
+        "FinancialCrime",
+        "CorporateGovernance",
+        "LegalAwareness"
     ]
 }
