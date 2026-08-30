@@ -1,14 +1,14 @@
 {
-    "title": "Data breach compensation that companies rarely actually pay",
-    "p1": "A company loses your personal data. You hear about possible compensation. But do most victims actually receive a payout? The answer surprises many people.\n\nA data breach does not automatically mean every affected person gets money.",
-    "p2": "Many people assume that once a company exposes customer information, compensation is guaranteed. In reality, payment often depends on factors like actual harm, legal claims, and whether a person can prove they suffered a loss.\n\nA leaked email address may be inconvenient, but proving financial damage from it can be much harder.",
-    "p3": "This is why companies may settle some cases but rarely pay every affected customer directly. The practical lesson: read breach notices carefully, protect your accounts, change passwords, and monitor suspicious activity instead of waiting for compensation.\n\nKnowing your rights matters, but prevention often protects you faster.",
-    "conclusion": "Do you think companies responsible for data breaches should automatically compensate every affected customer, or only those who prove actual harm?",
+    "title": "Government's power to intercept communications - the legal basis",
+    "p1": "Can the government really listen to your calls or read your messages? The answer is not a simple yes or no. There are legal boundaries that decide when such powers can be used.",
+    "p2": "Many people believe interception means authorities can access anyone's private conversations whenever they want. That is a misconception. In India, interception of communications is permitted only under specific legal provisions and for limited purposes such as national security, public order, or preventing certain offences.",
+    "p3": "The legal framework requires authorization from designated authorities and follows procedures meant to balance state interests with an individual's right to privacy. A key insight: even government agencies do not have unlimited access to private communications. The power exists, but it comes with conditions, accountability, and oversight requirements. Privacy is a fundamental right, but it is not absolute in every situation.",
+    "conclusion": "Where should the law draw the line between protecting national interests and protecting individual privacy? What safeguards do you think are necessary before communications can be intercepted?",
     "keywords": [
-        "DataPrivacy",
-        "CyberSecurity",
-        "ConsumerRights",
-        "DigitalSafety",
-        "DataBreach"
+        "PrivacyRights",
+        "CyberLaw",
+        "ConstitutionalLaw",
+        "LegalAwareness",
+        "DigitalRights"
     ]
 }
