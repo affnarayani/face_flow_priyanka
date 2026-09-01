@@ -1,14 +1,14 @@
 {
-    "title": "Stop payment vs insufficient funds - does it change the case",
-    "p1": "A cheque bounces, but the reason behind it can completely change how people view the situation. Many assume that a stop payment and insufficient funds are treated as two totally different legal problems.",
-    "p2": "The surprising part is that the result is often not decided only by the reason written by the bank. A stop payment instruction does not automatically erase responsibility. If the cheque was issued towards a genuine liability and other legal conditions are met, the case may still continue. Similarly, insufficient funds is a common reason for dishonour, but it is not the only factor considered.",
-    "p3": "The real question is why the cheque was issued, whether a valid debt existed, and whether required legal steps were followed after dishonour. The bank's return reason is just one piece of the puzzle. A practical takeaway: never assume a stop payment notice is a guaranteed defence or that every bounced cheque creates the same outcome.",
-    "conclusion": "Have you ever seen a cheque dispute where the reason for dishonour changed the way people understood the case?",
+    "title": "How courts actually evaluate expert and forensic witness testimony",
+    "p1": "A forensic expert’s opinion can look highly convincing and still fail in court.\n\nMany people assume that if a person is called an “expert,” the judge must accept what they say. That is not how courts work.",
+    "p2": "Courts do not judge expertise only by qualifications or confident presentation. They examine how the opinion was reached, what evidence supports it, whether the method used is reliable, and whether another expert could independently verify the findings.\n\nA surprising fact: even scientific evidence can be rejected if the process behind it is weak or unclear.",
+    "p3": "The real value of an expert witness is not just giving an answer, but showing a trustworthy path to that answer. Judges often focus more on the reasoning than the conclusion itself.\n\nFor anyone dealing with legal disputes, the key lesson is simple: strong evidence is not only about who presents it, but how well it can withstand examination.",
+    "conclusion": "Do you think courts should rely more on an expert’s reputation or on the method and reasoning behind their testimony?",
     "keywords": [
-        "ChequeBounce",
-        "BankingLaw",
+        "ExpertWitness",
+        "ForensicEvidence",
+        "CourtProcedure",
         "LegalAwareness",
-        "FinancialDisputes",
-        "BusinessLaw"
+        "DigitalEvidence"
     ]
 }
