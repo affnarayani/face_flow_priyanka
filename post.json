@@ -1,14 +1,14 @@
 {
-    "title": "Transfer pricing basics for cross-border transaction disputes",
-    "p1": "A company can make a profit and still face a tax dispute across borders.\n\nWhy? The price charged between related companies in different countries may become the real battlefield.",
-    "p2": "Many people think transfer pricing is about simply setting prices. The surprising part is that tax authorities often question whether those prices are fair, not whether a business transaction happened.\n\nFor example, a parent company selling services to its overseas subsidiary must show that the price is similar to what independent companies would agree on.",
-    "p3": "This idea is called the “arm’s length principle” — treating related businesses as if they were unrelated partners. When countries disagree on whether a price is reasonable, disputes can lead to extra taxes, penalties, and lengthy negotiations.\n\nA practical takeaway: businesses involved in international transactions should keep clear records showing how prices were decided before a dispute begins.",
-    "conclusion": "Have you ever wondered how companies prove that a cross-border transaction price is fair when tax authorities challenge it?",
+    "title": "Stop payment vs insufficient funds - does it change the case",
+    "p1": "A cheque bounces, but the reason behind it can completely change how people view the situation. Many assume that a stop payment and insufficient funds are treated as two totally different legal problems.",
+    "p2": "The surprising part is that the result is often not decided only by the reason written by the bank. A stop payment instruction does not automatically erase responsibility. If the cheque was issued towards a genuine liability and other legal conditions are met, the case may still continue. Similarly, insufficient funds is a common reason for dishonour, but it is not the only factor considered.",
+    "p3": "The real question is why the cheque was issued, whether a valid debt existed, and whether required legal steps were followed after dishonour. The bank's return reason is just one piece of the puzzle. A practical takeaway: never assume a stop payment notice is a guaranteed defence or that every bounced cheque creates the same outcome.",
+    "conclusion": "Have you ever seen a cheque dispute where the reason for dishonour changed the way people understood the case?",
     "keywords": [
-        "TransferPricing",
-        "CrossBorderTax",
-        "InternationalBusiness",
-        "TaxDisputes",
-        "BusinessCompliance"
+        "ChequeBounce",
+        "BankingLaw",
+        "LegalAwareness",
+        "FinancialDisputes",
+        "BusinessLaw"
     ]
 }
