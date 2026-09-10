@@ -1,14 +1,14 @@
 {
-    "title": "Online obscenity prosecution in the digital age",
-    "p1": "A single click can turn a private mistake into a public legal battle. But does sharing, posting, or forwarding offensive online content always lead to criminal action?",
-    "p2": "Many people assume that anything unpleasant or inappropriate online is automatically treated as obscenity. The reality is more specific: authorities examine the nature of the content, its impact, the intention behind sharing it, and the laws that apply in that situation.",
-    "p3": "In the digital age, online obscenity cases are challenging because content can spread instantly and reach thousands of people within minutes. A post deleted today may already exist through screenshots, downloads, or reposts. The practical lesson is simple: think before sharing, because online actions can create real-world legal consequences.",
-    "conclusion": "Do you think people are sufficiently aware of the legal risks involved in sharing questionable content online, or should digital law awareness be improved?",
+    "title": "Children's data - the special obligations companies must follow",
+    "p1": "A child clicking “accept” on an app may not understand what they are agreeing to. But the company collecting that data is expected to know better.\n\nChildren's personal information is not treated like ordinary user data.",
+    "p2": "Many businesses assume that if a child can use a service, they can collect their information the same way as adults. That is a costly misconception.\n\nCompanies often face stricter rules when handling children's data because children may not fully understand privacy risks or how their information could be used.",
+    "p3": "The real obligation is not just collecting less data. Companies may need clearer explanations, stronger safeguards, parental involvement in some situations, and careful limits on how children's information is shared or used.\n\nA simple rule: the younger the user, the greater the responsibility.\n\nPrivacy design is no longer only about compliance. It is about protecting people who may not know they need protection.",
+    "conclusion": "Should companies face stricter accountability when collecting data from children, even if parents allow their use of the service?",
     "keywords": [
-        "CyberLaw",
-        "DigitalRights",
-        "OnlineSafety",
-        "LegalAwareness",
-        "InternetLaw"
+        "ChildPrivacy",
+        "DataProtection",
+        "DigitalSafety",
+        "PrivacyRights",
+        "TechRegulation"
     ]
 }
