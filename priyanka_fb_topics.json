@@ -642,7 +642,10 @@
         "posted": true
     },
     {
-        "topic": "Passing off vs trademark infringement - the difference that matters"
+        "topic": "Passing off vs trademark infringement - the difference that matters",
+        "content_generated": true,
+        "image_generated": false,
+        "posted": false
     },
     {
         "topic": "Interim relief during a pending inquiry - transfer and leave options"
