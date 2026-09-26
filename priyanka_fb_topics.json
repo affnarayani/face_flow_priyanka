@@ -774,7 +774,10 @@
         "posted": true
     },
     {
-        "topic": "What happens after the first order from the housing regulator"
+        "topic": "What happens after the first order from the housing regulator",
+        "content_generated": true,
+        "image_generated": false,
+        "posted": false
     },
     {
         "topic": "Hacking of social media accounts - what the FIR should actually state"
