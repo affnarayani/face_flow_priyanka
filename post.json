@@ -1,14 +1,14 @@
 {
-    "title": "What happens after the first order from the housing regulator",
-    "p1": "The first order from a housing regulator is not always the end of the story. In many cases, it is only the beginning of a longer process that can change what happens next for buyers and developers.",
-    "p2": "A common misconception is that once the regulator passes an order, everything is automatically resolved. The reality is that the order may need to be followed by compliance, payment, corrections, or further legal steps if someone does not follow it.",
-    "p3": "After the first order, the next phase usually focuses on implementation. The developer may have to complete pending obligations, provide refunds, hand over possession, or comply with specific directions. One thing many people don't know: a regulator's order can have practical consequences only when parties actively enforce and follow through on it. For buyers, keeping records and tracking compliance can be just as important as winning the order itself.",
-    "conclusion": "Have you ever wondered what actually happens after a housing regulator issues an order? Do you think most people know their next steps?",
+    "title": "Hacking of social media accounts - what the FIR should actually state",
+    "p1": "Your social media account was hacked. But will your FIR actually describe the crime clearly?\n\nMany people write only: “My account was hacked.” That single sentence may not capture what really happened.",
+    "p2": "A surprising fact: the details in the FIR can shape how the complaint is investigated. A vague complaint may miss important digital evidence that could identify the person behind the attack.",
+    "p3": "A useful FIR should mention specific facts: the platform involved, username or account details, when access was lost, suspicious login activity, unauthorized posts or messages, password changes, financial loss (if any), and any evidence like screenshots, emails, or alerts.\n\nThe key idea is simple: describe the digital actions, not just the feeling of being hacked. Clear facts create a clearer investigation path.",
+    "conclusion": "If your account was compromised today, would you know what details to include in the FIR? What information do you think most people forget to mention?",
     "keywords": [
-        "HousingRegulator",
-        "RealEstateLaw",
-        "HomebuyersRights",
-        "PropertyDisputes",
-        "RERAAwareness"
+        "CyberCrime",
+        "SocialMediaSecurity",
+        "DigitalEvidence",
+        "OnlineFraud",
+        "CyberAwareness"
     ]
 }

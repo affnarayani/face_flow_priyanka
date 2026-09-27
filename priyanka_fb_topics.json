@@ -780,7 +780,10 @@
         "posted": true
     },
     {
-        "topic": "Hacking of social media accounts - what the FIR should actually state"
+        "topic": "Hacking of social media accounts - what the FIR should actually state",
+        "content_generated": true,
+        "image_generated": false,
+        "posted": false
     },
     {
         "topic": "False harassment complaints - legal remedies for the accused"
