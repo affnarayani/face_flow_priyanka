@@ -1,14 +1,14 @@
 {
-    "title": "False harassment complaints - legal remedies for the accused",
-    "p1": "A harassment complaint can change someone’s life overnight. But what happens when the accusation itself is false?\n\nMany people believe that once a complaint is filed, the accused has no options. That is not true.",
-    "p2": "A complaint is only an allegation, not proof of guilt. The accused also has legal rights, including the right to present evidence, challenge false claims, and seek appropriate remedies through the legal system.\n\nOne thing many people don't know: a person who knowingly files a false complaint may face legal consequences, depending on the facts and the applicable law.",
-    "p3": "The most practical step for anyone facing a false harassment allegation is to stay calm, preserve all relevant evidence, avoid aggressive reactions, and seek proper legal guidance. Messages, documents, timelines, and witness details can become crucial in presenting the truth.\n\nLegal processes are designed to examine facts, not just accusations.",
-    "conclusion": "Have you seen situations where false complaints affected someone’s reputation or career? What safeguards do you think are needed to balance protection for victims and rights of the accused?",
+    "title": "Cyber forensics in court - how reliable is it really",
+    "p1": "A deleted file. A hidden message. A digital trail. Can these really decide someone's guilt or innocence?\n\nMany people assume that digital evidence is always accurate because it comes from computers. But even technology can be misunderstood.",
+    "p2": "Cyber forensics is not about simply finding data. It is about proving where that data came from, whether it was altered, who had access to it, and how it was collected.\n\nA surprising fact: a screenshot, email, or recovered file may look convincing but can be weak evidence if its authenticity cannot be verified.",
+    "p3": "Courts often rely on cyber forensic experts to explain the reliability of digital evidence. Their methods, documentation, and handling of evidence can matter as much as the evidence itself.\n\nThe key takeaway: digital evidence is powerful, but it is only as reliable as the process used to collect and prove it.",
+    "conclusion": "Do you think digital evidence should be trusted more than traditional evidence, or does it create new risks in court?",
     "keywords": [
-        "LegalAwareness",
-        "FalseComplaints",
-        "LegalRights",
-        "CriminalLaw",
-        "JusticeSystem"
+        "CyberForensics",
+        "DigitalEvidence",
+        "CyberCrime",
+        "DataProtection",
+        "LegalAwareness"
     ]
 }
