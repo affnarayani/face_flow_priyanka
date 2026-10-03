@@ -1,14 +1,14 @@
 {
-    "title": "Cyber forensics in court - how reliable is it really",
-    "p1": "A deleted file. A hidden message. A digital trail. Can these really decide someone's guilt or innocence?\n\nMany people assume that digital evidence is always accurate because it comes from computers. But even technology can be misunderstood.",
-    "p2": "Cyber forensics is not about simply finding data. It is about proving where that data came from, whether it was altered, who had access to it, and how it was collected.\n\nA surprising fact: a screenshot, email, or recovered file may look convincing but can be weak evidence if its authenticity cannot be verified.",
-    "p3": "Courts often rely on cyber forensic experts to explain the reliability of digital evidence. Their methods, documentation, and handling of evidence can matter as much as the evidence itself.\n\nThe key takeaway: digital evidence is powerful, but it is only as reliable as the process used to collect and prove it.",
-    "conclusion": "Do you think digital evidence should be trusted more than traditional evidence, or does it create new risks in court?",
+    "title": "The sanction requirement before prosecuting a public servant for corruption",
+    "p1": "Can a public servant accused of corruption be prosecuted immediately? Many people assume the answer is always yes. But there is a legal step that can come first — and it often surprises people.",
+    "p2": "The common misconception is that a sanction requirement protects corrupt officials from facing the law. In reality, the rule is designed to prevent public servants from being harassed through baseless cases for decisions they made while performing official duties.",
+    "p3": "A sanction is a prior approval from the competent authority before a court can take up certain corruption cases against some public servants. It is not a declaration that the person is innocent. It only decides whether the prosecution process can begin. The key insight: this protection is about the procedure, not immunity from accountability. If evidence shows corruption and the required approval is granted, the case can move forward.",
+    "conclusion": "Should a sanction requirement be seen as a necessary safeguard for honest officials, or could it sometimes delay corruption investigations?",
     "keywords": [
-        "CyberForensics",
-        "DigitalEvidence",
-        "CyberCrime",
-        "DataProtection",
-        "LegalAwareness"
+        "CorruptionLaw",
+        "PublicServants",
+        "LegalRights",
+        "AntiCorruption",
+        "CriminalJustice"
     ]
 }
