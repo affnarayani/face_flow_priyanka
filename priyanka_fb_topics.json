@@ -804,7 +804,10 @@
         "posted": true
     },
     {
-        "topic": "Criminal intimidation through social media - is it taken seriously enough"
+        "topic": "Criminal intimidation through social media - is it taken seriously enough",
+        "content_generated": true,
+        "image_generated": false,
+        "posted": false
     },
     {
         "topic": "Section 498A misuse debate - what the Supreme Court has said lately"
