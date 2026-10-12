@@ -852,7 +852,10 @@
         "posted": true
     },
     {
-        "topic": "Negotiating a one-time settlement with a bank from strength"
+        "topic": "Negotiating a one-time settlement with a bank from strength",
+        "content_generated": true,
+        "image_generated": false,
+        "posted": false
     },
     {
         "topic": "Getting interim relief from court before arbitration even begins"
