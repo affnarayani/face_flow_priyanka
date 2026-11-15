@@ -3,3 +3,7 @@ requests
 python-dotenv
 cryptography
 playwright-stealth
+yt-dlp
+opencv-python
+moviepy
+google-genai
