@@ -888,7 +888,10 @@
         "posted": true
     },
     {
-        "topic": "Compliance for small companies - the employee-count threshold explained"
+        "topic": "Compliance for small companies - the employee-count threshold explained",
+        "content_generated": true,
+        "image_generated": false,
+        "posted": false
     },
     {
         "topic": "Debt recovery tribunal proceedings - timeline and common borrower defences"
