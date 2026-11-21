@@ -900,7 +900,10 @@
         "posted": true
     },
     {
-        "topic": "Polygraph and narco tests - the admissibility debate in Indian courts"
+        "topic": "Polygraph and narco tests - the admissibility debate in Indian courts",
+        "content_generated": true,
+        "image_generated": false,
+        "posted": false
     },
     {
         "topic": "Liability for autonomous vehicle accidents - the existing gaps"

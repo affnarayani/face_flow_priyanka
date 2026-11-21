@@ -1,14 +1,14 @@
 {
-    "title": "Debt recovery tribunal proceedings - timeline and common borrower defences",
-    "p1": "A bank files a recovery case against a borrower. Does that mean the borrower has already lost?\n\nNot necessarily. A Debt Recovery Tribunal (DRT) proceeding is not an automatic win for the bank. The borrower still has an opportunity to challenge the claim, question the amount and present a legal defence.",
-    "p2": "Here's something many borrowers overlook: receiving a DRT notice is not the same as receiving a final recovery order.\n\nUnder the Recovery of Debts and Bankruptcy Act, banks and financial institutions generally approach the DRT for recovery of qualifying debts. The borrower gets an opportunity to file a defence, commonly through a written statement, and dispute the lender's claims.",
-    "p3": "The timeline depends on the case's complexity, tribunal workload and procedural developments. The process generally involves filing the recovery application, issuing notice, receiving the borrower's response, hearing both sides and passing an order.\n\nCommon borrower defences include incorrect interest calculations, disputed loan balances, payments not credited, limitation issues, defective documentation and failure to follow mandatory legal procedures.\n\nOne practical takeaway: never ignore a DRT notice. Check the claim amount, loan documents, payment records and applicable limitation period immediately. Missing procedural deadlines can seriously weaken an otherwise valid defence.",
-    "conclusion": "What do you think is the strongest borrower defence in a DRT case: incorrect outstanding calculations, limitation, uncredited payments or procedural irregularities? Share your perspective in the comments.",
+    "title": "Polygraph and narco tests - the admissibility debate in Indian courts",
+    "p1": "Can the police make you take a lie detector test or administer truth serum to prove your guilt?\n\nSurprisingly, Indian law draws a firm line between investigating a crime and forcing someone to reveal what is inside their mind.",
+    "p2": "Many people assume that polygraph and narco tests produce evidence that courts can directly use to convict someone. That's not how it works.\n\nIn Selvi v. State of Karnataka (2010), the Supreme Court held that involuntary polygraph, narco-analysis and brain-mapping tests violate the constitutional protection against self-incrimination under Article 20(3), along with personal liberty under Article 21.\n\nHere's the lesser-known part: even when a person voluntarily agrees to these tests, the test results themselves are not automatically admissible as evidence.",
+    "p3": "A polygraph measures physical responses associated with stress, while narco-analysis involves administering drugs to lower a person's inhibitions. Neither guarantees truthful answers.\n\nThe Court distinguished between test results and independently discovered evidence. If information voluntarily obtained through such testing leads investigators to discover a material fact, that independently discovered fact may be admissible under the applicable evidence law, subject to legal safeguards.\n\nThe practical takeaway? A scientific-looking test is not necessarily reliable courtroom evidence. Constitutional rights cannot be bypassed in the name of investigation.",
+    "conclusion": "Where should Indian courts draw the line between effective criminal investigation and an individual's right against self-incrimination? Should even voluntary narco tests have a place in criminal investigations?",
     "keywords": [
-        "DebtRecovery",
-        "DRTProceedings",
-        "BorrowerRights",
-        "IndianBankingLaw",
+        "IndianConstitution",
+        "SelfIncrimination",
+        "CriminalLaw",
+        "SupremeCourt",
         "LegalAwareness"
     ]
 }
