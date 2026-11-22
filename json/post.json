@@ -1,14 +1,14 @@
 {
-    "title": "Polygraph and narco tests - the admissibility debate in Indian courts",
-    "p1": "Can the police make you take a lie detector test or administer truth serum to prove your guilt?\n\nSurprisingly, Indian law draws a firm line between investigating a crime and forcing someone to reveal what is inside their mind.",
-    "p2": "Many people assume that polygraph and narco tests produce evidence that courts can directly use to convict someone. That's not how it works.\n\nIn Selvi v. State of Karnataka (2010), the Supreme Court held that involuntary polygraph, narco-analysis and brain-mapping tests violate the constitutional protection against self-incrimination under Article 20(3), along with personal liberty under Article 21.\n\nHere's the lesser-known part: even when a person voluntarily agrees to these tests, the test results themselves are not automatically admissible as evidence.",
-    "p3": "A polygraph measures physical responses associated with stress, while narco-analysis involves administering drugs to lower a person's inhibitions. Neither guarantees truthful answers.\n\nThe Court distinguished between test results and independently discovered evidence. If information voluntarily obtained through such testing leads investigators to discover a material fact, that independently discovered fact may be admissible under the applicable evidence law, subject to legal safeguards.\n\nThe practical takeaway? A scientific-looking test is not necessarily reliable courtroom evidence. Constitutional rights cannot be bypassed in the name of investigation.",
-    "conclusion": "Where should Indian courts draw the line between effective criminal investigation and an individual's right against self-incrimination? Should even voluntary narco tests have a place in criminal investigations?",
+    "title": "Liability for autonomous vehicle accidents - the existing gaps",
+    "p1": "If a self-driving car causes an accident, who is legally responsible: the driver, the manufacturer, or the software developer?\n\nSurprisingly, the answer isn't always clear.",
+    "p2": "Many people assume that the vehicle owner is automatically liable. But autonomous vehicles complicate that assumption. When a human is driving, responsibility usually revolves around their actions. When software controls the vehicle, the situation changes dramatically.\n\nThe accident could result from a manufacturing defect, a software malfunction, faulty sensor data, poor system design, or even a human's failure to intervene.",
+    "p3": "Here's the legal gap: traditional liability rules were largely designed around human drivers, not vehicles making decisions through algorithms.\n\nAnother challenge is evidence. Investigators may need access to software logs, sensor records, system updates, and decision-making data to establish what actually went wrong.\n\nThe practical takeaway? Responsibility may be shared among manufacturers, software providers, vehicle owners, or human operators, depending on the circumstances and applicable laws. Technology is advancing faster than liability frameworks can adapt.",
+    "conclusion": "If an autonomous vehicle causes an accident while operating independently, who should bear the primary responsibility: the manufacturer, the software developer, or the vehicle owner?",
     "keywords": [
-        "IndianConstitution",
-        "SelfIncrimination",
-        "CriminalLaw",
-        "SupremeCourt",
-        "LegalAwareness"
+        "AutonomousVehicles",
+        "LegalLiability",
+        "ArtificialIntelligence",
+        "TechnologyLaw",
+        "FutureOfMobility"
     ]
 }
