@@ -918,7 +918,10 @@
         "posted": true
     },
     {
-        "topic": "Set off and counter claim - underused defensive tools"
+        "topic": "Set off and counter claim - underused defensive tools",
+        "content_generated": true,
+        "image_generated": false,
+        "posted": false
     },
     {
         "topic": "Liquor licence cancellation - grounds and the appeal process"
